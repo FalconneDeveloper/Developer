@@ -1,0 +1,281 @@
+/*Header*/
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(200, 200, 200, 0);
+    position: relative;
+    z-index: 3;
+}
+
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.logo {
+    color: #ffffff;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 23pt;
+    font-style: italic;
+    margin: auto;
+
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    margin-top: auto;
+}
+
+.menu a {
+
+    text-decoration: none;
+    margin-right: 2vw;
+    transition: 5s;
+
+}
+
+
+
+section.main {
+    background-image: url(assets/bg-fundo.jpg);
+    width: 100%;
+    height: 75vh;
+    padding: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+div.msg-main {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.521);
+    width: 500px;
+    height: 129.9%;
+    right: 100%;
+    position: absolute;
+    transform: translateY(-45%);
+    z-index: 1;
+    right: 0;
+    padding-top: 50vh;
+
+}
+
+.msg-main h2 {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.msg-main p {
+    font-size: 20px;
+    font-family: 'Sue ellen';
+    margin-top: 2%;
+    padding: 2vw;
+}
+
+/*End Header*/
+
+/*backmain Initial*/
+div.backmain {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+div.backmain h2 {
+    margin-top: 7.77%;
+    font-size: 26pt;
+    font-weight: 500;
+}
+
+div.backmain p {
+    font-size: 20px;
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+/*End Backmain*/
+
+
+/*Skills Initial*/
+
+div#skills-bg,
+div#skills-bg2 {
+    display: flex;
+
+
+}
+
+div#skills-title-txt {
+    background-image: url(assets/cssFlora.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+
+
+}
+
+div#skills-description-txt {
+    background-color: rgb(46, 46, 46);
+    width: 50%;
+    text-align: center;
+    padding: 10vh 10vw;
+    line-height: 1.875em;
+    font-size: 15px;
+}
+
+div#skills-description-txt p {
+    margin-top: 10%
+}
+
+
+div#skills-title-txt2 {
+    background-image: url(assets/jsAmaya.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+
+
+}
+
+div#skills-description-txt2 {
+    background-color: rgb(46, 46, 46);
+    width: 50%;
+    text-align: center;
+    padding: 10vh 10vw;
+    line-height: 1.875em;
+    font-size: 15px;
+}
+
+div#skills-title-txt2 p {
+    margin-top: 10%
+}
+/*End Skills*/
+
+/*Clients Initial*/
+
+#clients {
+    width: 100%;
+    
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#clients h2 {
+    margin-top: 7.77%;
+    font-size: 26pt;
+    font-weight: 500;
+}
+
+#clients p {
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 3vh 3vw 3vh 6vh;
+
+}
+
+
+.clients img{
+   margin-top: 4%;
+    background-position: center;
+    background-size:cover;
+    padding: 2%;
+    border-radius: 50%;
+    max-width: 200px;
+    min-height: 200px;
+}
+/*End Clients*/
+
+/*Contact Initial*/
+
+#contact {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#contact h2 {
+    margin-top: 5%;
+    font-size: 26pt;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#contact a, p {
+    font-size: 20px;
+    margin-top: 120px;
+    padding: 3vh 3vw 3vh 6vh;
+
+}
+
+div #infoBox{
+    margin:5% auto 0;
+    
+    height: 500px;
+   
+}
+
+div #info{
+   display: flex;
+   margin: auto;
+   width: 100%;
+ 
+
+}
+
+div #infoWatsapp{
+    width: 33.333%;
+   
+
+}
+
+div #infoEmail{
+    width: 33.333%;
+  
+   
+
+}
+
+div #infoPhone{
+    width: 33.333%;
+   
+    
+
+}
+
+.formatImg{
+    
+    width:10vw;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/*End Contact*/
+
+footer{
+    text-align: center;
+    background-color: black;
+}
